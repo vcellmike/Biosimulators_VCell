@@ -26,11 +26,11 @@
       "lastName": "Moraru"
     },
     {
-      "firstName": "Micheal",
+      "firstName": "Michael",
       "lastName": "Blinov"
     },
     {
-      "firstName": "Micheal",
+      "firstName": "Michael",
       "lastName": "Wilson"
     },
     {
@@ -54,7 +54,7 @@
     "identifiers": [],
     "citations": [{
         "title": "A general computational framework for modeling cellular structure and function",
-        "authors": "James C. Schaff, Charles C. Fink, Boris M. Slepchenko, John H. Carson & Leslie M. Leow",
+        "authors": "James C. Schaff, Charles C. Fink, Boris M. Slepchenko, John H. Carson & Leslie M. Loew",
         "journal": "Biophysical Journal",
         "volume": "73",
         "pages": "1135-1146",
@@ -67,7 +67,7 @@
       },
       {
         "title": "The Virtual Cell: A software environment for computational cell biology",
-        "authors": "James C. Schaff & Leslie M. Leow",
+        "authors": "James C. Schaff & Leslie M. Loew",
         "journal": "Trends in Biotechnology",
         "volume": "19",
         "pages": "401-406",
@@ -93,7 +93,7 @@
       },
       {
         "title": "The Virtual Cell modeling and simulation software environment",
-        "authors": "Ion I. Moraru, James C. Scaff, Boris M. Slepchenko, Micheal L. Blinov, Frank Morgan, Anuradha Lakshminaryana, Fei Gao, Ye Li & Leslie M. Loew",
+        "authors": "Ion I. Moraru, James C. Scaff, Boris M. Slepchenko, Michael L. Blinov, Frank Morgan, Anuradha Lakshminaryana, Fei Gao, Ye Li & Leslie M. Loew",
         "journal": "IET Systems Biology",
         "volume": "2",
         "pages": "352-362",
@@ -106,7 +106,7 @@
       },
       {
         "title": "Compartmental and spatial rule-based modeling with Virtual Cell",
-        "authors": "Micheal L. Blinov, James C. Scaff, Dan Vasilescu, Ion I. Moraru, Judy E. Bloom & Leslie M. Loew",
+        "authors": "Michael L. Blinov, James C. Scaff, Dan Vasilescu, Ion I. Moraru, Judy E. Bloom & Leslie M. Loew",
         "journal": "Biophysical Journal",
         "volume": "113",
         "pages": "1365-1372",
@@ -491,7 +491,7 @@
       }],
       "citations": [{
         "title": "Efficient exact stochastic simulation of chemical systems with many species and many channels",
-        "authors": "Micheal A. Gibson & Jehoshua Bruck",
+        "authors": "Michael A. Gibson & Jehoshua Bruck",
         "journal": "Journal Physical Chemistry A",
         "volume": 104,
         "issue": 9,
