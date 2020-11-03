@@ -133,7 +133,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000293" //non-spatial continuous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -181,7 +181,7 @@
       },
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000293" //non-spatial continuous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -230,7 +230,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000293" //non-spatial continuous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -279,7 +279,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000293" //non-spatial continuous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -328,7 +328,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000293" //non-spatial continuous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -377,7 +377,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000293" //non-spatial continuous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -426,7 +426,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000293" //non-spatial continuous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -475,7 +475,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000295" //non-spatial discrete framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -523,7 +523,7 @@
       },
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000295" //non-spatial discrete framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -572,7 +572,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000295" //non-spatial discrete framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -621,7 +621,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000292"
+        "id": "SBO_0000292" //spatial continuous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -670,7 +670,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000293" //non-spatial continous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -734,7 +734,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000292"
+        "id": "SBO_0000292" //spatial continuous framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -783,7 +783,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000292"
+        "id": "SBO_0000294" //spatial discrete framework
       }],
       "modelFormats": [{
         "namespace": "EDAM",
