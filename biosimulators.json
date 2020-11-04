@@ -170,7 +170,26 @@
         "name": "Relative tolerance",
         "type": "float",
         "value": 1e-9
-      }]
+      }
+      {
+        "kisaoId": {
+          "namespace": "KISAO",
+          "id": "KISAO_0000211" // absolute tolerance 
+           },
+        "name": "Absolute tolerance",
+        "type": "float",
+        "value": 1e-9
+        },  
+        {
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000467"
+          },
+          "name": "Maximum time step",
+          "type": "float",
+          "value": 1.0
+        }
+    ]
     },
     {
       "id": "RungeKutta2",
