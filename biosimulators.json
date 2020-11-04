@@ -164,7 +164,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000209" /* relative tolerance */
+          "id": "KISAO_0000209" // relative tolerance 
         },
         "id": "rel_tol",
         "name": "Relative tolerance",
@@ -212,7 +212,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000064"
+          "id": "KISAO_0000209" // relative tolerance
         },
         "id": "rel_tol",
         "name": "relative tolerance",
@@ -261,7 +261,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000030"
+          "id": "KISAO_0000209" // relative tolerance
         },
         "id": "rel_tol",
         "name": "Relative tolerance",
@@ -310,7 +310,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000032"
+          "id": "KISAO_0000209" // relative tolerance
         },
         "id": "rel_tol",
         "name": "Relative tolerance",
@@ -359,7 +359,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000086"
+          "id": "KISAO_0000209" // relative tolerance
         },
         "id": "rel_tol",
         "name": "Relative tolerance",
@@ -408,7 +408,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000280"
+          "id": "KISAO_0000209" // relative tolerance
         },
         "id": "rel_tol",
         "name": "Relative tolerance",
@@ -457,7 +457,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000209"
+          "id": "KISAO_0000209" // relative tolerance
         },
         "id": "rel_tol",
         "name": "Relative tolerance",
@@ -503,16 +503,6 @@
           "url": "https://doi.org/10.1021/jp993732q"
         }]
       }],
-      "parameters": [{
-        "kisaoId": {
-          "namespace": "KISAO",
-          "id": "KISAO_0000027"
-        },
-        "id": "rel_tol",
-        "name": "Relative tolerance",
-        "type": "float",
-        "value": 1e-9
-      }]
     },
     {
       "id": "HybridEuler",
@@ -551,16 +541,6 @@
           "url": "https://doi.org/10.1016/j.cam.2019.112545"
         }]
       }],
-      "parameters": [{
-        "kisaoId": {
-          "namespace": "KISAO",
-          "id": "KISAO_0000352"
-        },
-        "id": "rel_tol",
-        "name": "Relative tolerance",
-        "type": "float",
-        "value": 1e-9
-      }]
     },
     {
       "id": "HybridMilstein",
@@ -600,16 +580,6 @@
           "url": "https://doi.org/10.3934/dcdsb.2018253"
         }]
       }],
-      "parameters": [{
-        "kisaoId": {
-          "namespace": "KISAO",
-          "id": "KISAO_0000352"
-        },
-        "id": "rel_tol",
-        "name": "Relative tolerance",
-        "type": "float",
-        "value": 1e-9
-      }]
     },
     {
       "id": "FiniteVolumeStandalone",
@@ -652,7 +622,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000285"
+          "id": "KISAO_0000209" // relative tolerance
         },
         "id": "rel_tol",
         "name": "Relative tolerance",
@@ -716,7 +686,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000285"
+          "id": "KISAO_0000209" // relative tolerance
         },
         "id": "rel_tol",
         "name": "Relative tolerance",
@@ -765,7 +735,7 @@
       "parameters": [{
         "kisaoId": {
           "namespace": "KISAO",
-          "id": "KISAO_0000285"
+          "id": "KISAO_0000209" // relative tolerance
         },
         "id": "rel_tol",
         "name": "Relative tolerance",
@@ -811,16 +781,6 @@
           "url": "https://doi.org/10.1080/14786442808674769"
         }]
       }],
-      "parameters": [{
-        "kisaoId": {
-          "namespace": "KISAO",
-          "id": "KISAO_0000057"
-        },
-        "id": "rel_tol",
-        "name": "Relative tolerance",
-        "type": "float",
-        "value": 1e-9
-      }]
     }
   ],
   "biosimulators": {
