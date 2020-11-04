@@ -128,7 +128,7 @@
       "name": "C-language Variable-coefficient Ordinary Differential Equation solver",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000019"
+        "id": "KISAO_0000019" //cvode
       },
 
       "modelingFrameworks": [{
@@ -177,7 +177,7 @@
       "name": "Runge-Kutta (Second Order, Fixed Time Step)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000064"
+        "id": "KISAO_0000064" //Runge-Kutta based method
       },
       "modelingFrameworks": [{
         "namespace": "SBO",
@@ -225,7 +225,7 @@
       "name": "Forward Euler (First Order, Fixed Time Step)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000030"
+        "id": "KISAO_0000030" //Euler forward method
       },
 
       "modelingFrameworks": [{
@@ -274,7 +274,7 @@
       "name": "Runge-Kutta (Fourth Order, Fixed Time Step)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000032"
+        "id": "KISAO_0000032" //explicit fourth-order Runge-Kutta method
       },
 
       "modelingFrameworks": [{
@@ -323,7 +323,7 @@
       "name": "Runge-Kutta-Fehlberg (Fifth Order, Variable Time Step)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000086"
+        "id": "KISAO_0000086" //Fehlberg method
       },
 
       "modelingFrameworks": [{
@@ -372,7 +372,7 @@
       "name": "Adams-Moulton (Fifth Order, Fixed Time Step)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000280"
+        "id": "KISAO_0000280" //Adams-Moulton method
       },
 
       "modelingFrameworks": [{
@@ -421,7 +421,7 @@
       "name": "IDA (Variable Order, Variable Time Step, ODE/DAE)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000283"
+        "id": "KISAO_0000283" //IDA
       },
 
       "modelingFrameworks": [{
@@ -470,7 +470,7 @@
       "name": "Gibson (Next Reaction Stochastic Method)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000027"
+        "id": "KISAO_0000027" //Gibson-Bruck next reaction algorithm
       },
 
       "modelingFrameworks": [{
@@ -509,7 +509,7 @@
       "name": "Hybrid (Gibson + Euler-Maruyama Method)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000352"
+        "id": "KISAO_0000352" //hybrid method
       },
       "modelingFrameworks": [{
         "namespace": "SBO",
@@ -547,7 +547,7 @@
       "name": "Hybrid (Gibson + Milstein Method)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000352"
+        "id": "KISAO_0000352" //hybrid method
       },
 
       "modelingFrameworks": [{
@@ -586,7 +586,7 @@
       "name": "Semi-Implicit Finite Volume-Particle Hybrid, Regular Grid (Fixed Time Step)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000285"
+        "id": "KISAO_0000285" //finite volume method
       },
 
       "modelingFrameworks": [{
@@ -635,7 +635,7 @@
       "name": "Combined Stiff Solver (IDA/CVODE)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000019"
+        "id": "KISAO_0000019" //cvode
       },
 
       "modelingFrameworks": [{
@@ -699,7 +699,7 @@
       "name": "Fully-Implicit Finite Volume, Regular Grid (Variable Time Step)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000285"
+        "id": "KISAO_0000285" //finite volume method
       },
 
       "modelingFrameworks": [{
@@ -748,7 +748,7 @@
       "name": "Smoldyn (Spatial Stochastic Simulator)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000057"
+        "id": "KISAO_0000057" //Brownian diffusion Smoluchowski method
       },
 
       "modelingFrameworks": [{
