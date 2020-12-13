@@ -198,7 +198,7 @@
             "id": "KISAO_0000211"
           },
                     "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
-        }
+        },
         {
           "id": "maxtimestep",
           "name": "Maximum time step",
@@ -258,7 +258,18 @@
           "url": "https://www.ijsr.net/get_abstract.php?paper_id=20131137"
         }]
       }],
-      "parameters": null,
+      "parameters": [{
+          "id": "initial_step_size",
+          "name": "initial step size",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000559"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
@@ -300,7 +311,18 @@
           "url": "https://doi.org/10.1155/2015/350362"
         }]
       }],
-      "parameters": null,
+      "parameters": [{
+          "id": "initial_step_size",
+          "name": "initial step size",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000559"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
@@ -342,7 +364,18 @@
           "url": "https://doi.org/10.1080/00207169908804817"
         }]
       }],
-      "parameters": null,
+        "parameters": [{
+          "id": "initial_step_size",
+          "name": "initial step size",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000559"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
@@ -384,20 +417,43 @@
           "url": "https://doi.org/10.1093/imamat/8.3.386"
         }]
       }],
-         "parameters": [
+      "parameters": [
         {
-          "id": "seed",
-          "name": "Random seed",
-          "type": "integer",
-          "value": "0",
+          "id": "rtol",
+          "name": "Relative tolerance",
+          "type": "float",
+          "value": "1e-9",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000488"
+            "id": "KISAO_0000209"
           },
-           "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
-        }
-      ],
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "atol",
+          "name": "Absolute tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000211"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "maxtimestep",
+          "name": "Maximum time step",
+          "type": "float",
+          "value": "1.0",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000467"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
@@ -439,7 +495,18 @@
           "url": "https://doi.org/10.1023/A:1021951025649"
         }]
       }],
-      "parameters": null,
+        "parameters": [{
+          "id": "initial_step_size",
+          "name": "initial step size",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000559"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
@@ -481,7 +548,134 @@
           "url": "https://doi.org/10.1016/j.simpat.2005.05.002"
         }]
       }],
-      "parameters": null,
+         "parameters": [
+        {
+          "id": "rtol",
+          "name": "Relative tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000209"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "atol",
+          "name": "Absolute tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000211"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "maxtimestep",
+          "name": "Maximum time step",
+          "type": "float",
+          "value": "1.0",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000467"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
+      "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
+      "dependencies": null
+    },
+    {
+      "id": "Combined_IDA_CVODE",
+      "name": "Combined Stiff Solver (IDA/CVODE)",
+      "kisaoId": {
+        "namespace": "KISAO",
+        "id": "KISAO_0000019"
+      },
+
+      "modelingFrameworks": [{
+        "namespace": "SBO",
+        "id": "SBO_0000293"
+      }],
+      "modelFormats": [{
+        "namespace": "EDAM",
+        "id": "format_2585", "version": null, "supportedFeatures": []
+      }],
+      "simulationFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3685", "version": null, "supportedFeatures": []
+      }],
+      "archiveFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3686", "version": null, "supportedFeatures": []
+      }],
+      "citations": [{
+          "title": "CVODE, a stiff/nonstiff ODE solver in C",
+          "authors": "Scott D. Cohen, Alan C. Hindmarsh & Paul F. Dubois",
+          "journal": "Computers in Physics",
+          "volume": 10,
+          "issue": 2,
+          "pages": "138-143",
+          "year": 1996,
+          "identifiers": [{
+            "namespace": "doi",
+            "id": "10.1063/1.4822377",
+            "url": "https://doi.org/10.1063/1.4822377"
+          }]
+        },
+        {
+          "title": "Solving differential–algebraic equation systems by means of index reduction methodology",
+          "authors": "Kim Sørensen, Thomas Condra & Niels Houbak",
+          "journal": "Simulation Modelling Practice and Theory",
+          "volume": 14,
+          "issue": 3,
+          "pages": "224-236",
+          "year": 2006,
+          "identifiers": [{
+            "namespace": "doi",
+            "id": "10.1016/j.simpat.2005.05.002",
+            "url": "https://doi.org/10.1016/j.simpat.2005.05.002"
+          }]
+        }],
+       "parameters": [{
+          "id": "rtol",
+          "name": "Relative tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000209"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "atol",
+          "name": "Absolute tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000211"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "maxtimestep",
+          "name": "Maximum time step",
+          "type": "float",
+          "value": "1.0",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000467"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
@@ -532,7 +726,7 @@
       "name": "Hybrid (Gibson + Euler-Maruyama Method)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000352"
+        "id": "KISAO_0000286"
       },
       "modelingFrameworks": [{
         "namespace": "SBO",
@@ -564,16 +758,27 @@
           "url": "https://doi.org/10.1016/j.cam.2019.112545"
         }]
       }],
-      "parameters": null,
+        "parameters": [{
+          "id": "initial_step_size",
+          "name": "initial step size",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000559"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
     {
-      "id": "HybridMilstein",
+      "id": "Hybrid_Gibson_Milstein",
       "name": "Hybrid (Gibson + Milstein Method)",
       "kisaoId": {
         "namespace": "KISAO",
-        "id": "KISAO_0000352"
+        "id": "KISAO_0000287"
       },
 
       "modelingFrameworks": [{
@@ -606,12 +811,76 @@
           "url": "https://doi.org/10.3934/dcdsb.2018253"
         }]
       }],
-      "parameters": null,
+      "parameters": [{
+          "id": "initial_step_size",
+          "name": "initial step size",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000559"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
+      "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
+      "dependencies": null
+    },
+{
+      "id": "Hybrid_AdaptiveGibson_Milstein",
+      "name": "Hybrid (Adaptive Gibson + Milstein Method)",
+      "kisaoId": {
+        "namespace": "KISAO",
+        "id": "KISAO_0000287"
+      },
+
+      "modelingFrameworks": [{
+        "namespace": "SBO",
+        "id": "SBO_0000293"
+      }],
+      "modelFormats": [{
+        "namespace": "EDAM",
+        "id": "format_2585", "version": null, "supportedFeatures": []
+      }],
+      "simulationFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3685", "version": null, "supportedFeatures": []
+      }],
+      "archiveFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3686", "version": null, "supportedFeatures": []
+      }],
+      "citations": [{
+        "title": "A randomized Milstein method for stochastic differential equations with non-differentiable drift coefficients",
+        "authors": "Raphel Kruse & Yue Wu",
+        "journal": "Discrete and Continuous Dynamical Systems",
+        "volume": 24,
+        "issue": 8,
+        "pages": "3475-3502",
+        "year": 2010,
+        "identifiers": [{
+          "namespace": "doi",
+          "id": "10.3934/dcdsb.2018253",
+          "url": "https://doi.org/10.3934/dcdsb.2018253"
+        }]
+      }],
+      "parameters": [{
+          "id": "initial_step_size",
+          "name": "initial step size",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000559"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
     {
-      "id": "FiniteVolumeStandalone",
+      "id": "Semi-Implicit_FiniteVolume-ParticleHybrid_RegularGrid_FixedTimeStep",
       "name": "Semi-Implicit Finite Volume-Particle Hybrid, Regular Grid (Fixed Time Step)",
       "kisaoId": {
         "namespace": "KISAO",
@@ -648,69 +917,36 @@
           "url": "https://doi.org/10.1016/S1570-8659(00)07005-8"
         }]
       }],
-      "parameters": null,
-      "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
-      "dependencies": null
-    },
-    {
-      "id": "Combined IDA/CVODE",
-      "name": "Combined Stiff Solver (IDA/CVODE)",
-      "kisaoId": {
-        "namespace": "KISAO",
-        "id": "KISAO_0000019"
-      },
-
-      "modelingFrameworks": [{
-        "namespace": "SBO",
-        "id": "SBO_0000293"
-      }],
-      "modelFormats": [{
-        "namespace": "EDAM",
-        "id": "format_2585", "version": null, "supportedFeatures": []
-      }],
-      "simulationFormats": [{
-        "namespace": "EDAM",
-        "id": "format_3685", "version": null, "supportedFeatures": []
-      }],
-      "archiveFormats": [{
-        "namespace": "EDAM",
-        "id": "format_3686", "version": null, "supportedFeatures": []
-      }],
-      "citations": [{
-          "title": "CVODE, a stiff/nonstiff ODE solver in C",
-          "authors": "Scott D. Cohen, Alan C. Hindmarsh & Paul F. Dubois",
-          "journal": "Computers in Physics",
-          "volume": 10,
-          "issue": 2,
-          "pages": "138-143",
-          "year": 1996,
-          "identifiers": [{
-            "namespace": "doi",
-            "id": "10.1063/1.4822377",
-            "url": "https://doi.org/10.1063/1.4822377"
-          }]
+       "parameters": [
+        {
+          "id": "rtol",
+          "name": "Relative tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000209"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         },
         {
-          "title": "Solving differential–algebraic equation systems by means of index reduction methodology",
-          "authors": "Kim Sørensen, Thomas Condra & Niels Houbak",
-          "journal": "Simulation Modelling Practice and Theory",
-          "volume": 14,
-          "issue": 3,
-          "pages": "224-236",
-          "year": 2006,
-          "identifiers": [{
-            "namespace": "doi",
-            "id": "10.1016/j.simpat.2005.05.002",
-            "url": "https://doi.org/10.1016/j.simpat.2005.05.002"
-          }]
-        }
-      ],
-      "parameters": null,
+          "id": "initial_step_size",
+          "name": "initial step size",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000559"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
     {
-      "id": "SundialsPDE",
+      "id": "Fully-Implicit_FiniteVolume_RegularGrid_VariableTimeStep",
       "name": "Fully-Implicit Finite Volume, Regular Grid (Variable Time Step)",
       "kisaoId": {
         "namespace": "KISAO",
@@ -747,7 +983,43 @@
           "url": "https://doi.org/10.1016/S1570-8659(00)07005-8"
         }]
       }],
-      "parameters": null,
+       "parameters": [
+        {
+          "id": "rtol",
+          "name": "Relative tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000209"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "atol",
+          "name": "Absolute tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000211"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "maxtimestep",
+          "name": "Maximum time step",
+          "type": "float",
+          "value": "1.0",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000467"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
@@ -789,7 +1061,18 @@
           "url": "https://doi.org/10.1080/14786442808674769"
         }]
       }],
-      "parameters": null,
+      "parameters": [{
+          "id": "initial_step_size",
+          "name": "initial step size",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000559"
+          },
+                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     }
