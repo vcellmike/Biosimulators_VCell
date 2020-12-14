@@ -209,7 +209,7 @@
             "namespace": "KISAO",
             "id": "KISAO_0000467"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }
       ],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
@@ -259,16 +259,16 @@
         }]
       }],
       "parameters": [{
-          "id": "initial_step_size",
-          "name": "initial step size",
+          "id": "step_size",
+          "name": "default time step",
           "type": "float",
           "value": "0.1",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000559"
+            "id": "KISAO_0000483"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -312,16 +312,16 @@
         }]
       }],
       "parameters": [{
-          "id": "initial_step_size",
-          "name": "initial step size",
+          "id": "step_size",
+          "name": "default time step",
           "type": "float",
           "value": "0.1",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000559"
+            "id": "KISAO_0000483"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -365,16 +365,16 @@
         }]
       }],
         "parameters": [{
-          "id": "initial_step_size",
-          "name": "initial step size",
+          "id": "step_size",
+          "name": "default time step",
           "type": "float",
           "value": "0.1",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000559"
+            "id": "KISAO_0000483"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -452,7 +452,7 @@
             "namespace": "KISAO",
             "id": "KISAO_0000467"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -496,16 +496,15 @@
         }]
       }],
         "parameters": [{
-          "id": "initial_step_size",
-          "name": "initial step size",
+          "name": "default time step",
           "type": "float",
           "value": "0.1",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000559"
+            "id": "KISAO_0000483"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -583,7 +582,7 @@
             "namespace": "KISAO",
             "id": "KISAO_0000467"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -674,7 +673,7 @@
             "namespace": "KISAO",
             "id": "KISAO_0000467"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -689,7 +688,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000295"
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -717,7 +716,19 @@
           "url": "https://doi.org/10.1021/jp993732q"
         }]
       }],
-      "parameters": null,
+              "parameters": [
+          {
+          "id": "seed",
+          "name": "Customized seed",
+          "type": "float",
+          "value": "0",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000488"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
     },
@@ -730,7 +741,7 @@
       },
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000295"
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -758,17 +769,30 @@
           "url": "https://doi.org/10.1016/j.cam.2019.112545"
         }]
       }],
-        "parameters": [{
-          "id": "initial_step_size",
-          "name": "initial step size",
+        "parameters": [
+          {
+          "id": "seed",
+          "name": "Customized seed",
+          "type": "float",
+          "value": "0",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000488"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+          {
+          "id": "step_size",
+          "name": "default time step",
           "type": "float",
           "value": "0.1",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000559"
+            "id": "KISAO_0000483"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -783,7 +807,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000295"
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -811,17 +835,30 @@
           "url": "https://doi.org/10.3934/dcdsb.2018253"
         }]
       }],
-      "parameters": [{
-          "id": "initial_step_size",
-          "name": "initial step size",
+      "parameters": [
+         {
+          "id": "seed",
+          "name": "Customized seed",
+          "type": "float",
+          "value": "0",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000488"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "step_size",
+          "name": "default time step",
           "type": "float",
           "value": "0.1",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000559"
+            "id": "KISAO_0000483"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -836,7 +873,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000293"
+        "id": "SBO_0000295"
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -864,17 +901,30 @@
           "url": "https://doi.org/10.3934/dcdsb.2018253"
         }]
       }],
-      "parameters": [{
-          "id": "initial_step_size",
-          "name": "initial step size",
+      "parameters": [
+        {
+          "id": "seed",
+          "name": "Customized seed",
+          "type": "float",
+          "value": "0",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000488"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        },
+        {
+          "id": "step_size",
+          "name": "default time step",
           "type": "float",
           "value": "0.1",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000559"
+            "id": "KISAO_0000483"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -931,16 +981,16 @@
                     "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         },
         {
-          "id": "initial_step_size",
-          "name": "initial step size",
+          "id": "step_size",
+          "name": "default time step",
           "type": "float",
           "value": "0.1",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000559"
+            "id": "KISAO_0000483"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -1018,7 +1068,165 @@
             "namespace": "KISAO",
             "id": "KISAO_0000467"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        }],
+      "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
+      "dependencies": null
+    },
+    {
+      "id": "FiniteVolume_Particle_Hybrid_Implicit",
+      "name": "Finite Volume-Particle Hybrid, Implicit",
+      "kisaoId": {
+        "namespace": "KISAO",
+        "id": "KISAO_0000285"
+      },
+
+      "modelingFrameworks": [{
+        "namespace": "SBO",
+        "id": "SBO_0000292"
+      }],
+      "modelFormats": [{
+        "namespace": "EDAM",
+        "id": "format_2585", "version": null, "supportedFeatures": []
+      }],
+      "simulationFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3685", "version": null, "supportedFeatures": []
+      }],
+      "archiveFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3686", "version": null, "supportedFeatures": []
+      }],
+      "citations": [{
+        "title": "Finite volume methods",
+        "authors": "Robert Eymard, Gallouet Thierry & Raphaèle Herbin",
+        "journal": "Handbook of Numerical Analysis",
+        "volume": 7,
+        "issue": "",
+        "pages": "731-1020",
+        "year": 2000,
+        "identifiers": [{
+          "namespace": "doi",
+          "id": "10.1016/S1570-8659(00)07005-8",
+          "url": "https://doi.org/10.1016/S1570-8659(00)07005-8"
+        }]
+      }],
+       "parameters": [
+        {
+          "id": "step_size",
+          "name": "default time step",
+          "type": "float",
+          "value": "0.1",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000483"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        }],
+      "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
+      "dependencies": null
+    },
+     {
+      "id": "MovingBoundaries",
+      "name": "Moving Boundaries Solver",
+      "kisaoId": {
+        "namespace": "KISAO",
+        "id": "KISAO_0000285"
+      },
+
+      "modelingFrameworks": [{
+        "namespace": "SBO",
+        "id": "SBO_0000292"
+      }],
+      "modelFormats": [{
+        "namespace": "EDAM",
+        "id": "format_2585", "version": null, "supportedFeatures": []
+      }],
+      "simulationFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3685", "version": null, "supportedFeatures": []
+      }],
+      "archiveFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3686", "version": null, "supportedFeatures": []
+      }],
+      "citations": [{
+        "title": "A conservative algorithm for parabolic problems in domains with moving boundaries",
+        "authors": "Igor L Novak & Boris M Slepchenko",
+        "journal": "J Comput Phys.",
+        "volume": 270,
+        "issue": "",
+        "pages": "203-213",
+        "year": 2014,
+        "identifiers": [{
+          "namespace": "doi",
+          "id": "10.1016/j.jcp.2014.03.014",
+          "url": "https://doi.org/10.1016/j.jcp.2014.03.014"
+        }]
+      }],
+       "parameters": [
+        {
+          "id": "rtol",
+          "name": "Relative tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000209"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
+        }],
+      "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
+      "dependencies": null
+    },
+     {
+      "id": "EBChombo_SemiImplicit_FixedTimeStep",
+      "name": "EBChombo Semi-Implicit (Fixed Time Step)",
+      "kisaoId": {
+        "namespace": "KISAO",
+        "id": "KISAO_0000285"
+      },
+
+      "modelingFrameworks": [{
+        "namespace": "SBO",
+        "id": "SBO_0000292"
+      }],
+      "modelFormats": [{
+        "namespace": "EDAM",
+        "id": "format_2585", "version": null, "supportedFeatures": []
+      }],
+      "simulationFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3685", "version": null, "supportedFeatures": []
+      }],
+      "archiveFormats": [{
+        "namespace": "EDAM",
+        "id": "format_3686", "version": null, "supportedFeatures": []
+      }],
+      "citations": [{
+        "title": "EBChombo Software Package for Cartesian Grid, Embedded Boundary Applications",
+        "authors": "Colella, P.",
+        "journal": "Lawrence Berkeley National Laboratory",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "year": 2014,
+        "identifiers": null
+      }],
+       "parameters": [
+        {
+          "id": "rtol",
+          "name": "Relative tolerance",
+          "type": "float",
+          "value": "1e-9",
+          "recommendedRange": null,
+          "kisaoId": {
+            "namespace": "KISAO",
+            "id": "KISAO_0000209"
+          },
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
@@ -1033,7 +1241,7 @@
 
       "modelingFrameworks": [{
         "namespace": "SBO",
-        "id": "SBO_0000292"
+        "id": "SBO_0000294"
       }],
       "modelFormats": [{
         "namespace": "EDAM",
@@ -1062,16 +1270,16 @@
         }]
       }],
       "parameters": [{
-          "id": "initial_step_size",
-          "name": "initial step size",
+          "id": "step_size",
+          "name": "default time step",
           "type": "float",
           "value": "0.1",
           "recommendedRange": null,
           "kisaoId": {
             "namespace": "KISAO",
-            "id": "KISAO_0000559"
+            "id": "KISAO_0000483"
           },
-                    "availableSoftwareInterfaceTypes": ["web service", "desktop application", "library", "command-line application", "BioSimulators Docker image"]
+                    "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"]
         }],
       "availableSoftwareInterfaceTypes": ["desktop application", "command-line application", "BioSimulators Docker image"],
       "dependencies": null
